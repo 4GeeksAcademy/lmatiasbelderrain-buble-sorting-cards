@@ -1,5 +1,44 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
 }
+.card.♦ {
+    color: red; /* Diamantes rojos */
+  }
+  
+  .card.♥ {
+    color: red; /* Corazones rojos */
+  }
+  
+  .card.♠ {
+    color: black; /* Picas negras */
+  }
+  
+  .card.♣ {
+    color: black; /* Tréboles negros */
+  }
+  .card {
+   border: 1px solid black;
+   width: 50px ;
+   height:80px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 3px;
+   list-style-type:none;
+   margin: 5px;
+  }
+  #contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+    margin: 6px;
+  }
+  #ordenadas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+    margin: 6px;
+  }
+  
